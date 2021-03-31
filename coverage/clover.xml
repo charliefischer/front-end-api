@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1617199323925" clover="3.2.0">
-  <project timestamp="1617199323925" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1" elements="4" coveredelements="4" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+<coverage generated="1617200040521" clover="3.2.0">
+  <project timestamp="1617200040521" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="9" coveredelements="9" complexity="0" loc="6" ncloc="6" packages="1" files="2" classes="2"/>
     <file name="Peep.js" path="/Users/user1/Sites/Makers/tech_tests/chitterVanilla/src/Peep.js">
-      <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+    <file name="User.js" path="/Users/user1/Sites/Makers/tech_tests/chitterVanilla/src/User.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="4" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

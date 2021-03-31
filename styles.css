@@ -1,4 +1,5 @@
 body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
@@ -22,3 +23,16 @@ header {
 .feed {
   grid-column: 2 / span 2;
 }
+
+.feed-peep {
+  background-color: aqua;
+  padding: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+a.peep-body{
+  font-size: 20px;
+}
+
