@@ -1,0 +1,15 @@
+{
+  "name": "chitterVanilla",
+  "version": "1.0.0",
+  "description": "The task is to build a front end sing-page-app to interface with a pre-built backend API hosted on heroku.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

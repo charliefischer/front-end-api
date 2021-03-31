@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+header {
+  grid-column: 1;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-tweet {
+  grid-column: 2 / span 2;
+  width: 70%
+}
+
+.right-options {
+  grid-column: 4;
+}
+
+.feed {
+  grid-column: 2 / span 2;
+}
