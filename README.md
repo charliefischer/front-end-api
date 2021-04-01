@@ -2,7 +2,7 @@
 
 The task is to build a front end sing-page-app to interface with a pre-built backend API hosted on heroku.
 
-[] Creating Users
+[X] Creating Users
 [] Logging in
 [] Posting peeps
 [X] View all peeps

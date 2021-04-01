@@ -1,8 +1,19 @@
+
 const signUpForm = document.getElementById('registatrationForm')
+const output = document.getElementById('handle');
 const submit = document.getElementById('signUp')
 let handle = document.querySelector('#handle')
+let user;
 
-createNewUser = () => {
+document.addEventListener("DOMContentLoaded", () => {
+
+  signUpForm.addEventListener('submit', (e) => {
+    e.preventDefault()
+    createNewUser()
+  })
+})
+
+createNewUser = (e) => {
 	var url = 'https://chitter-backend-api.herokuapp.com/users';
 	var data = {
 		"user": {"handle":document.getElementById('new-handle').value,
@@ -23,16 +34,16 @@ createNewUser = () => {
 	})
 	.then(res => res.json())
 	.then(json => {
-    console.log(json)
-		let output = document.getElementById('handle');
-		return output.innerHTML = `${json.handle}`;
+    user = new User(json.handle)
+    updateHandleName()
 	});
 };
 
-
-document.addEventListener("DOMContentLoaded", () => {
-  signUpForm.addEventListener('submit', (e) => {
-    e.preventDefault()
-    createNewUser()
-  })
-})
+updateHandleName = () => {
+  console.log(user);
+  if(user){
+    return output.innerHTML = `${user.handle}`;
+  } else {
+    return output.innerHTML = `Stranger`
+  }
+}

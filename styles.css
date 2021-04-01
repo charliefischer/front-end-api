@@ -20,6 +20,10 @@ header {
   grid-column: 4;
 }
 
+.login {
+  flex-direction: column;
+}
+
 .feed,
 .feed-header {
   grid-column: 2 / span 2;
