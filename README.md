@@ -5,7 +5,7 @@ The task is to build a front end sing-page-app to interface with a pre-built bac
 [] Creating Users
 [] Logging in
 [] Posting peeps
-[] View all peeps
+[X] View all peeps
 [] Delete peeps
 [] Liking peeps
 [] Unliking peeps

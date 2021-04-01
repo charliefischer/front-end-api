@@ -20,7 +20,8 @@ header {
   grid-column: 4;
 }
 
-.feed {
+.feed,
+.feed-header {
   grid-column: 2 / span 2;
 }
 

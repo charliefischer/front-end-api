@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src='./src/script.js' defer></script>
   <script src='./src/Peep.js' defer></script>
   <script src='./src/fetchData.js' defer></script>
-  <script src='./src/interface.js' defer></script>
+  <script src='./src/authentication.js' defer></script>
 </head>
 <body>
   <header>
@@ -36,9 +36,22 @@
   </section>
   
   <section class="right-options">
-    additional options
+    <div class="login">
+      <a>Sign Up</a>
+      <form id='registatrationForm'>
+        <input type="text" id='new-handle' name='handle' placeholder='Username'>
+        <input type="password" id='new-password' name='password' placeholder='Password'>
+        <button type='submit'>Sign Up</button>
+      </form>
+    </div>
   </section>
-  
+  <div class="feed-header">
+    <h1>Feed</h1>
+    <a id='handle'>
+      Stranger
+    </a>
+  </div>
+    
   <section class='feed'>
     <div>
       new posts appear here
